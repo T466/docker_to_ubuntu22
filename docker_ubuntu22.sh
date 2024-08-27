@@ -10,3 +10,4 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io -y
 sudo systemctl status docker
 sudo usermod -aG docker $USER
 docker run hello-world
+docker ps
