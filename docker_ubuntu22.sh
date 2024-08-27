@@ -1,4 +1,5 @@
 #!/bin/bash
+
 sudo apt-get remove docker docker-engine docker.io containerd runc -y
 sudo apt-get update -y; apt-get upgrade -y
 sudo apt-get install apt-transport-https ca-certificates curl software-properties-common -y
